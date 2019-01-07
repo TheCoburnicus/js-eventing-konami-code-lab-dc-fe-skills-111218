@@ -5,7 +5,7 @@ function init() {
  let index = 0;
   
   document.body.addEventListener('keydown", function(e)'); {
-    cont key = e.detail || e.which;
+    const key = e.detail || e.which;
     
     console.log("key = " + key);
     console.log("index = " + index);
