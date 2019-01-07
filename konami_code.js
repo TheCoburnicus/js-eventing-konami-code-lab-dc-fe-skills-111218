@@ -4,8 +4,8 @@ function init() {
   // Write your JavaScript code inside the init() function
  let index = 0;
   
-  document.body.addEventListener('keydown", function(e)') {
-    cont key = e.detail || e.which;
+  document.body.addEventListener('keydown", function(e)'); {
+    cont key = e.detail || e.which
     
     console.log("key = " + key);
     console.log("index = " + index);
